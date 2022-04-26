@@ -68,7 +68,7 @@ func CallBackFromGoogle(w http.ResponseWriter, r *http.Request) {
 			log.Println("Get: " + err.Error() + "\n")
 		}
 		defer resp.Body.Close()
-		response, err := ioutil.ReadAll(r.Body)
+		response, err := ioutil.ReadAll(r.Body) 
 		if err != nil {
 			log.Println("ReadAll: " + err.Error() + "\n")
 			http.Redirect(w, r, "/", http.StatusTemporaryRedirect)

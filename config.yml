@@ -3,5 +3,5 @@ logger-output-path: ./
 
 oauthStateString: 
 google:
-  clientID: 
-  clientSecret: 
+  clientID: 316186354021-goqkhmd2vj1ujn7h6l0q33ekru8aj9m4.apps.googleusercontent.com
+  clientSecret: dt6by3cot4rlLvso68j70NNw
